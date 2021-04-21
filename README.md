@@ -1,1 +1,2 @@
-# Pupilfirst-WD101
+# Pupilfirst Web Development 101
+Final Project
