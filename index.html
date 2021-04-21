@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+<title>Air Slider - Game</title>
+</head>
+<body onload="startGame()" class="container">
+
+<br><br>
+<button class="btn" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
+<h3 class="hcor"><u><b style="font-size: larger;">Rule</b></u> : <span style="color: #0000cc">Use The ACCELERATE Button to Stay in The Air</span></h3>
+<p>Game Over? <button onclick="return location.reload();" class="replay">Replay Now</button></p>
+</body>
+</html>
